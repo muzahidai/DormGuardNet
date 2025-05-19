@@ -19,7 +19,7 @@ DormGuardNet is a lightweight deep learning model designed to detect prohibited 
    ```bash
    git clone https://github.com/ultralytics/yolov5
    cd yolov5
- ```bash
+
 
 2. Copy the following files and folders from this repository into the YOLOv5 directory:
 
@@ -30,9 +30,9 @@ dormguard-pretrained200.pt
 
 
 ##3. Install the required libraries using the YOLOv5 requirements.txt file:
- ```bash
+bash
  pip install -r requirements.txt
- ```bash
+
 
 ## Usage
 ##Training the Model with Pretrained Weights.
