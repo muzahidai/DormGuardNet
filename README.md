@@ -31,7 +31,7 @@ dormguard-pretrained200.pt
 3. Install the required libraries using the YOLOv5 requirements.txt file:
  ```bash
 pip install -r requirements.txt
- ```bash
+
 
 4. Usage
 ##Training the Model with Pretrained Weights.
