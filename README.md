@@ -28,7 +28,7 @@ Dormguard.yaml, and
 dormguard-pretrained200.pt
 
 
-##3. Install the required libraries using the YOLOv5 requirements.txt file:
+3. Install the required libraries using the YOLOv5 requirements.txt file:
 
 >> pip install -r requirements.txt
 
