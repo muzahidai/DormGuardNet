@@ -23,14 +23,14 @@ DormGuardNet is a lightweight deep learning model designed to detect prohibited 
 
 2. Copy the following files and folders from this repository into the YOLOv5 directory:
 
-Dataset/
-run.py
-Dormguard.yaml
+Dataset/,
+run.py,
+Dormguard.yaml, and
 dormguard-pretrained200.pt
 
 
 ##3. Install the required libraries using the YOLOv5 requirements.txt file:
-bash
+ ```bash
  pip install -r requirements.txt
 
 
@@ -38,33 +38,33 @@ bash
 Training the Model with Pretrained Weights.
 Run the following command to fine-tune the model with pretrained weights:
 
-bash
+ ```bash
 python train.py --img 640 --batch 24 --epochs 100 --data ../Dataset/data.yaml --cfg Dormguard.yaml --weights dormguard-pretrained200 --name dormguard_results
 
 
 ##Training the Model from Scratch. To train the model without pretrained weights, use the following command:
 
-bash
+ ```bash
 python train.py --img 640 --batch 24 --epochs 100 --data ../Dataset/data.yaml --cfg Dormguard.yaml --name dormguard_results
 
 
 
 ##Using a Bash Script for Batch Training
 Create a file named run_scripts.sh and add multiple training commands as follows:
-bash
+ ```bash
 #!/bin/bash
 python train.py --img 640 --batch 300 --epochs 200 --data /media/user/yolov5-master/Dataset/data.yaml --cfg Dormguard.yaml --weights dormguard-pretrained200 --name > output.txt > /Run_report/pretrained_200.txt
 python train.py --img 640 --batch 300 --epochs 400 --data /media/user/yolov5-master/Dataset/data.yaml --cfg Dormguard.yaml --weights dormguard-pretrained200 --name > output.txt > /Run_report/pretrained_400.txt
 python train.py --img 640 --batch 300 --epochs 200 --data /media/user/yolov5-master/Dataset/data.yaml --cfg Dormguard.yaml --name > output.txt > /Run_report/pretrained_400.txt
 
 >>Run the script on command line to execute all commands:
-bash
+ ```bash
 ./run_scripts.sh
 
 
 ###Citation
 If you use our dataset or source code in your research, please cite our paper as follows:
-bash
+ ```bash
 Jahid, Imrul, A. A. M. Muzahid, Reda Lamtoueh, Sayed Jobaer, Nazratun Naim Neha, Hua Han, Yujin Zhang, and Ferdous Sohel, 
 "DormGuardNet: A Lightweight Deep Learning Model for Detecting Prohibited Items in Student Dormitory Environments," 
 2025 17th International Conference on Computer and Automation Engineering (ICCAE), Perth, Australia, 2025, pp. 104-109, 
