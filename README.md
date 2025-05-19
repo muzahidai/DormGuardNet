@@ -34,20 +34,21 @@ pip install -r requirements.txt
  ```bash
 
 4. Usage
-Training the Model with Pretrained Weights. Run the following command to fine-tune the model with pretrained weights:
+##Training the Model with Pretrained Weights.
+Run the following command to fine-tune the model with pretrained weights:
 
  ```bash
 python train.py --img 640 --batch 24 --epochs 100 --data ../Dataset/data.yaml --cfg Dormguard.yaml --weights dormguard-pretrained200 --name dormguard_results
  ```bash
 
->>Training the Model from Scratch. To train the model without pretrained weights, use the following command:
+##Training the Model from Scratch. To train the model without pretrained weights, use the following command:
 
  ```bash
 python train.py --img 640 --batch 24 --epochs 100 --data ../Dataset/data.yaml --cfg Dormguard.yaml --name dormguard_results
 
  ```bash
 
->>Using a Bash Script for Batch Training
+##Using a Bash Script for Batch Training
 Create a file named run_scripts.sh and add multiple training commands as follows:
 #!/bin/bash
 python train.py --img 640 --batch 300 --epochs 200 --data /media/user/yolov5-master/Dataset/data.yaml --cfg Dormguard.yaml --weights dormguard-pretrained200 --name > output.txt > /Run_report/pretrained_200.txt
@@ -59,7 +60,7 @@ python train.py --img 640 --batch 300 --epochs 200 --data /media/user/yolov5-mas
 ./run_scripts.sh
  ```bash
 
-Citation
+###Citation
 If you use our dataset or source code in your research, please cite our paper as follows:
  ```bash
 Jahid, Imrul, A. A. M. Muzahid, Reda Lamtoueh, Sayed Jobaer, Nazratun Naim Neha, Hua Han, Yujin Zhang, and Ferdous Sohel, 
