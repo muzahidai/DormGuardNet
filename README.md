@@ -60,6 +60,11 @@ python train.py --img 640 --batch 300 --epochs 200 --data /media/user/yolov5-mas
 
 >>./run_scripts.sh
 
+## Validation command
+>>python val.py --img 640 --batch 24 --data ../Dataset/data.yaml --weights runs/train/dormguard_results/weights/best.pt --name dormguard_val
+
+## Test command
+python detect.py --img 640 --weights runs/train/dormguard_results/weights/best.pt --source ../Dataset/test_images --conf 0.25 --name dormguard_test
 
 ###Citation
 If you use our dataset or source code in your research, please cite our paper as follows:
