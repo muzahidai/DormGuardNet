@@ -4,7 +4,7 @@
 
 This repository contains the dataset and source code associated with the paper:
 
-> **Jahid, Imrul, A. A. M. Muzahid, Reda Lamtoueh, Sayed Jobaer, Nazratun Naim Neha, Hua Han, Yujin Zhang, and Ferdous Sohel, "DormGuardNet: A Lightweight Deep Learning Model for Detecting Prohibited Items in Student Dormitory Environments," 2025 17th International Conference on Computer and Automation Engineering (ICCAE), Perth, Australia, 2025, pp. 104-109, doi: [10.1109/ICCAE64891.2025.10980592](https://doi.org/10.1109/ICCAE64891.2025.10980592).**
+> **Jahid Imrul, A. A. M. Muzahid, Reda Lamtoueh, Sayed Jobaer, Nazratun Naim Neha, Hua Han, Yujin Zhang, and Ferdous Sohel, "DormGuardNet: A Lightweight Deep Learning Model for Detecting Prohibited Items in Student Dormitory Environments," 2025 17th International Conference on Computer and Automation Engineering (ICCAE), Perth, Australia, 2025, pp. 104-109, doi: [10.1109/ICCAE64891.2025.10980592](https://doi.org/10.1109/ICCAE64891.2025.10980592).**
 
 ## Overview
 
